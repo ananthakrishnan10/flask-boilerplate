@@ -19,7 +19,3 @@ ma = Marshmallow(app)
 from app.user.views import user_bp
 
 app.register_blueprint(user_bp)
-
-# Run the application
-if __name__ == "__main__":
-    app.run(debug=True)
