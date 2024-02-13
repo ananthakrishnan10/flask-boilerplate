@@ -16,6 +16,6 @@ db = SQLAlchemy(app)
 ma = Marshmallow(app)
 
 # Import and register blueprints
-from app.user.views import user_bp
+from app.user.urls import user_bp
 
 app.register_blueprint(user_bp)

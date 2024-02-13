@@ -5,3 +5,4 @@ Flask-Cors
 Flask-RESTful
 flask_sqlalchemy
 marshmallow-sqlalchemy
+black
