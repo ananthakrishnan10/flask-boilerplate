@@ -1,19 +1,7 @@
 ## steps to run
 
-create a virtual environment
+using docker
 
 ```bash
-  virtualenv .venv
-```
-
-install dependencies
-
-```bash
-  pip install -r requirements.txt
-```
-
-start the server
-
-```bash
-  python run.py
+  docker compose up
 ```
